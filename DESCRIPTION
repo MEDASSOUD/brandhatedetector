@@ -1,0 +1,29 @@
+Package: brandhatedetector
+Type: ShinyApp
+Title: Brand Hate Detector – Shiny App
+Version: 1.0.0
+Author: Mohamed Assoud <m.assoud@uhp.ac.ma>
+Maintainer: Mohamed Assoud <m.assoud@uhp.ac.ma>
+Description: An open-source R Shiny app for scraping, analyzing, and classifying brand hate intensity from ConsumerAffairs reviews using sentiment analysis and NRC Emotion Lexicon. Features explainable outputs, hybrid classification, and interactive visualizations for academic and managerial use.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.2)
+Imports:
+    shiny,
+    rvest,
+    tidytext,
+    sentimentr,
+    syuzhet,
+    ggplot2,
+    wordcloud,
+    RColorBrewer,
+    stopwords,
+    dplyr,
+    stringr,
+    purrr,
+    tidyr
+Suggests:
+    shinythemes,
+    renv
