@@ -42,7 +42,7 @@ The Brand Hate Detector is implemented in **R Shiny** and consists of five modul
 - **Classification**: A two-stage framework assigns reviews to *Mild, Moderate, Strong,* or *Hybrid* hate.  
 - **Visualization & Reporting**: Interactive dashboards present category distributions, reasons, emotion word clouds, and bubble plots, all exportable.  
 
-![Analytical pipeline of the Brand Hate Detector](https://raw.githubusercontent.com/MEDASSOUD/brandhatedetector/main/Figures/Figure1.svg)
+[![Analytical pipeline of the Brand Hate Detector](https://raw.githubusercontent.com/MEDASSOUD/brandhatedetector/blob/main/Figure%201.svg)]
 All outputs are downloadable in CSV or publication-quality image formats. The app is platform-independent, requires only R and standard packages, and prioritizes reproducibility through transparent rules and visible mappings.
 
 # Acknowledgements
