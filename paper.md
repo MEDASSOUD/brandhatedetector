@@ -43,7 +43,6 @@ The Brand Hate Detector is implemented in **R Shiny** and consists of five modul
 - **Visualization & Reporting**: Interactive dashboards present category distributions, reasons, emotion word clouds, and bubble plots, all exportable.  
 
 ![Analytical pipeline of the Brand Hate Detector](Figures/Figure1.svg)
-
 All outputs are downloadable in CSV or publication-quality image formats. The app is platform-independent, requires only R and standard packages, and prioritizes reproducibility through transparent rules and visible mappings.
 
 # Acknowledgements
